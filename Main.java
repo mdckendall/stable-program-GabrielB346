@@ -38,4 +38,5 @@ class Main {
             }
 	  }
   }
+//thanks to Anthony for helping me figure out a lot of print stuff with array and idiot checking me in chat. gonna keep a lot of this in mind for my final project
 

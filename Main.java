@@ -20,14 +20,23 @@ class Main {
 				System.out.println("Enter true if the horse is tame or false if it is not.");
 				boolean t = scanner.nextBoolean();
 				h = new Horse(hn, w, t);
-				s.arrayList.add(h);
+				s.ArList.add(h);
 			}//testing goodest 4
 			else{
 				break;
 			}
 		}while(true);
 		//Display the info here
-                //You code here!
+            for (int i = 0; i < s.ArList.size(); i++){
+              int HorseNumber = i+1;
+              System.out.print("Horse #"+ HorseNumber + " Name: ");
+              System.out.print(s.ArList.get(i).hn);
+              System.out.print(" Weight: ");
+              System.out.print(s.ArList.get(i).w);
+              System.out.print(" Tame: ");
+              System.out.println(s.ArList.get(i).t);
+            }
 	  }
   }
-}
+//thanks to Anthony for helping me figure out a lot of print stuff with array and idiot checking me in chat. gonna keep a lot of this in mind for my final project
+
